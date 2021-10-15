@@ -9,8 +9,9 @@
 // Analysis of Requirements
 // Design
 // Implementation
-// Maintain
 // Testing & Integration
+// Maintain
+
 
 
 //////////////////PROBLEM 2////////////////////
@@ -19,8 +20,8 @@
 */
 
 let planning = "Project leaders evaluate the terms of the project"
-let analysis = ""
-let design = 
-let implementation =
-let maintain = 
-let testing = 
+let analysis = "Clearly define and document the product requirements and get them approved by the customer"
+let design = "Layout, functions, and operations are determined and described in detail"
+let implementation = "User notification & training, installation of hardware & software, and integration into established processes"
+let testing = "Product defects are reported, tracked, fixed, and retested"
+let maintain = "Upgrades, repairs, and fixes that occur after the product is in full operation"
