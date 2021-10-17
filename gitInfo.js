@@ -11,6 +11,8 @@
 
 //CODE HERE
 
+let gitDefinition = "A system to maintain version control of files"
+
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,6 +20,8 @@
 */
 
 //CODE HERE
+
+let gitHubDefinition = "A web-based interface for Git that allows real-time collaboration "
 
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
@@ -35,6 +39,11 @@
 
 //CODE HERE
 
+let init = "Creates a new git repository";
+    "git init"
+
+
+
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -42,6 +51,10 @@
 */
 
 //CODE HERE
+
+let clone = "Copies an existing repository into a new directory"
+    "git clone https://github.com/EdreaRobinson/Week1Assessment.git"
+
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -51,6 +64,9 @@
 
 //CODE HERE
 
+let status = "Shows the current status of the Git working directory and staging area"
+    "git status"
+
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -58,6 +74,9 @@
 */
 
 //CODE HERE
+
+let add = "Directs Git to save a snapshot of the current project into the commit history"
+    "git add gitInfo.js"
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -67,6 +86,9 @@
 
 //CODE HERE
 
+let commit = "Captures a snapshot of the project's currently staged changes"
+    "git commit -m "Assessment gitInfo""
+
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -75,3 +97,6 @@
 */
 
 //CODE HERE
+
+let push = "Used to upload local respository content to the remote repository"
+    "git push"
