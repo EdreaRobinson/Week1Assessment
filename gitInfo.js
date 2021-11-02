@@ -39,8 +39,10 @@ let gitHubDefinition = "A web-based interface for Git that allows real-time coll
 
 //CODE HERE
 
-let init = "Creates a new git repository";
-    "git init"
+let init = {
+    description: "Creates a new git repository",
+    code: "git init"
+}
 
 
 
@@ -52,9 +54,10 @@ let init = "Creates a new git repository";
 
 //CODE HERE
 
-let clone = "Copies an existing repository into a new directory"
-    "git clone https://github.com/EdreaRobinson/Week1Assessment.git"
-
+let clone = {
+    description: "Copies an existing repository into a new directory",
+    code: "git clone https://github.com/EdreaRobinson/Week1Assessment.git"
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -64,8 +67,10 @@ let clone = "Copies an existing repository into a new directory"
 
 //CODE HERE
 
-let status = "Shows the current status of the Git working directory and staging area"
-    "git status"
+let status = {
+    description: "Shows the current status of the Git working directory and staging area",
+    code: "git status"
+}
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -75,8 +80,10 @@ let status = "Shows the current status of the Git working directory and staging 
 
 //CODE HERE
 
-let add = "Directs Git to save a snapshot of the current project into the commit history"
-    "git add gitInfo.js"
+let add = {
+    description: "Directs Git to save a snapshot of the current project into the commit history",
+    code: "git add gitInfo.js"
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -86,8 +93,10 @@ let add = "Directs Git to save a snapshot of the current project into the commit
 
 //CODE HERE
 
-let commit = "Captures a snapshot of the project's currently staged changes"
-    "git commit -m "Assessment gitInfo""
+let commit = {
+    description: "Captures a snapshot of the project's currently staged changes",
+    code: "git commit -m 'Assessment gitInfo'"
+}
 
 
 //////////////////PROBLEM 8////////////////////
@@ -98,5 +107,7 @@ let commit = "Captures a snapshot of the project's currently staged changes"
 
 //CODE HERE
 
-let push = "Used to upload local respository content to the remote repository"
-    "git push"
+let push = {
+    description: "Used to upload local respository content to the remote repository",
+    code: "git push"
+}
